@@ -1,46 +1,22 @@
 {
   "project_info": {
-    "project_number": "835771562218",
-    "project_id": "dopameter-9b2b2",
-    "storage_bucket": "dopameter-9b2b2.firebasestorage.app"
+    "project_id": "dummy-project-id",
+    "firebase_url": "https://dummy-url.firebaseio.com",
+    "project_number": "123456789012"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:835771562218:android:ea17ee6c6c59c9ec053f93",
+        "mobilesdk_app_id": "1:123456789012:android:dummyappid",
         "android_client_info": {
           "package_name": "com.rupertpople.dopameter"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "835771562218-v0krsr6hpbfvauq7nv4vfpurbepfu4t5.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
       "api_key": [
         {
-          "current_key": "AIzaSyDxQxVaMVrvLDZkvfK_1GZ0PNzp6zjYXrw"
+          "current_key": "dummy-api-key"
         }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "835771562218-v0krsr6hpbfvauq7nv4vfpurbepfu4t5.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "835771562218-3gqon0qd33gc0rdfjto103k4njum8lnh.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.rupertpople.dopameter"
-              }
-            }
-          ]
-        }
-      }
+      ]
     }
-  ],
-  "configuration_version": "1"
+  ]
 }

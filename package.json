@@ -1,0 +1,34 @@
+{
+    "name": "project",
+    "license": "0BSD",
+    "version": "1.0.0",
+    "main": "index.js",
+    "dependencies": {
+        "@react-native-async-storage/async-storage": "^2.1.2",
+        "@react-native-firebase/app": "^21.12.0",
+        "@react-native-firebase/auth": "^21.12.0",
+        "@react-native-firebase/firestore": "^21.12.0",
+        "@react-native/metro-config": "^0.78.0",
+        "@react-navigation/native": "^7.0.14",
+        "@react-navigation/stack": "^7.1.1",
+        "firebase": "^11.4.0",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0",
+        "react-native": "0.78.0",
+        "react-native-gesture-handler": "^2.24.0",
+        "react-native-linear-gradient": "^2.8.3",
+        "react-native-progress": "^5.0.1",
+        "react-native-reanimated": "^3.17.1",
+        "react-native-safe-area-context": "^5.3.0",
+        "react-native-screens": "^4.9.1",
+        "react-native-svg": "15.8.0",
+        "react-native-tab-view": "^4.0.5"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.20.0",
+        "@react-native-community/cli": "^11.0.0",
+        "@react-native-community/cli-platform-android": "^11.0.0",
+        "@react-native/gradle-plugin": "^0.78.0"
+    },
+    "private": true
+}

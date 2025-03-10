@@ -11,15 +11,15 @@ const Stack = createStackNavigator();
 
 export default function App() {
   return (
-    // <AuthProvider>  {/* ✅ Wrap the app with AuthProvider */}
-    //   <NavigationContainer>
-    //     <Stack.Navigator initialRouteName="SignIn">
-    //       <Stack.Screen name="SignIn" component={SignInScreen} />
-    //       <Stack.Screen name="SignUp" component={SignUpScreen} />
-    //       <Stack.Screen name="Home" component={HomeScreen} />
-    //       <Stack.Screen name="Profile" component={ProfileScreen} />
-    //     </Stack.Navigator>
-    //   </NavigationContainer>
-    // </AuthProvider>
+    <AuthProvider>  {/* ✅ Wrap the app with AuthProvider */}
+      <NavigationContainer>
+        <Stack.Navigator initialRouteName="SignIn">
+          <Stack.Screen name="SignIn" component={SignInScreen} />
+          <Stack.Screen name="SignUp" component={SignUpScreen} />
+          <Stack.Screen name="Home" component={HomeScreen} />
+          <Stack.Screen name="Profile" component={ProfileScreen} />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </AuthProvider>
   );
 }
